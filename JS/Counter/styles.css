@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 4rem;  
+    text-align: center;  
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+output{
+    font-size: 4rem;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+button:first-child{
+    background-color: green;
+}
+
+button:nth-child(2){
+    background-color: red;
+}
+button:nth-child(3){
+    background-color: yellow;
+    color: black;
+}
