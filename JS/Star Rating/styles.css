@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.star{
+    font-size: 2rem;
+    color: grey;
+    cursor: pointer;
+}
+
+.filled{
+    color: yellow;
+}
