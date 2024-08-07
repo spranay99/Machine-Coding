@@ -3,6 +3,7 @@ import FetchApi from "./components/FetchApi";
 import StarRating from "./components/StarRating";
 import "./App.css";
 import Carousel from "./components/Carousel";
+import Stopwatch from "./components/Stopwatch";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <Counter /> */}
       {/* <FetchApi /> */}
       {/* <StarRating /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <Stopwatch />
     </>
   );
 }
