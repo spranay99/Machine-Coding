@@ -4,6 +4,7 @@ import StarRating from "./components/StarRating";
 import "./App.css";
 import Carousel from "./components/Carousel";
 import Stopwatch from "./components/Stopwatch";
+import Accordion from "./components/Accordion";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <FetchApi /> */}
       {/* <StarRating /> */}
       {/* <Carousel /> */}
-      <Stopwatch />
+      {/* <Stopwatch /> */}
+      <Accordion />
     </>
   );
 }
